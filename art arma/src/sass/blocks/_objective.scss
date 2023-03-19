@@ -1,0 +1,27 @@
+.objective {
+  margin-top: 60px;
+  &__text {
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  &__subtext {
+    margin-top: 100px;
+  }
+  &__btnholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+  }
+}
+.btn_prime {
+  background: none;
+  margin-bottom: 100px;
+  color: $text_color;
+  border: 2px solid #000000;
+  &:hover {
+    transition: 0.6s all;
+    scale: 1.01;
+    background: none;
+  }
+}
